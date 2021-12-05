@@ -1,0 +1,51 @@
+$accent:#d7b399;
+$dark: #212121;
+$light: #F9F6F1;
+$gray:#CBCFD4;
+$light-gray:#F4F4F4;
+$dark-gray:#8d8d8d;
+$important: #D84033;
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.page-light{
+    background-color: $light;
+}
+.wrapper {
+    max-width: 1110px;
+    margin: 0 auto;   
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    list-style-type:none;
+    padding-left: 0;
+    &-item {
+        margin-left: 52px;
+    } 
+    
+    &-link {
+
+    }
+}
+
+
+.cart{
+&-count {
+    background-color: $accent;
+    color:#FFF;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px 15px;
+    
+}    
+}
